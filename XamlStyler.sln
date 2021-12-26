@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{A90FF0B9-BF29-43C0-932D-DAECE259ED83}"
+	ProjectSection(SolutionItems) = preProject
+		src\libs\Directory.Build.props = src\libs\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlStyler", "src\libs\H.XamlStyler\H.XamlStyler.csproj", "{647EAB68-D217-4BBD-ABDE-1C3450D89042}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8C4614D-DDF1-4254-A4E7-D26125F40766}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{647EAB68-D217-4BBD-ABDE-1C3450D89042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647EAB68-D217-4BBD-ABDE-1C3450D89042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647EAB68-D217-4BBD-ABDE-1C3450D89042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647EAB68-D217-4BBD-ABDE-1C3450D89042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{647EAB68-D217-4BBD-ABDE-1C3450D89042} = {A90FF0B9-BF29-43C0-932D-DAECE259ED83}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {801198FC-F9C4-47AF-84B9-623374720525}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = XamlStylerVSPackage.vsmdi
+	EndGlobalSection
+EndGlobal
